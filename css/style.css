@@ -24,10 +24,7 @@ Home Page Section:
 /*****************************************************************
 			Base CSS Start
 ******************************************************************/
-/*::placeholder{
-	background: transparent !important;
-	color: #fff !important;
-}*/
+
 body{
 	padding: 0;
 	margin: 0;
@@ -83,9 +80,7 @@ ul{
 	border: 1px solid #56ab2f !important;
 	color: #f1f1f1 !important;
 }
-.card-hover:hover{
-	border-color: #56ab2f !important;
-}
+
 /*****************************************************************
 			Common CSS End
 ******************************************************************/
@@ -113,10 +108,11 @@ ul{
 }
 .topbar-right li:first-child::after{
 	content:"|";
-	color:#000;
+	color:#090;
 	padding-left: 10px;
 	font-weight: 300; 
 padding-right: 10px;
+ 
 }
 
 
@@ -126,6 +122,36 @@ padding-right: 10px;
 /*****************************************************************
 			Header CSS Start
 ******************************************************************/
+.margin-left-10{
+	margin-left: -6px !important;
+	font-size: 10px !important;
+	margin-right: -3px !important;
+	}
+	.text-primary{
+		color:#56ab2f !important;
+	}
+	.badge{
+		background-color:#56ab2f !important;
+	}
+	.margin-left{
+		margin-left:20px !important;
+	}
+	.nav-link{
+		font-weight: bold !important;
+		margin-right: 10px !important;
+		font-size: 15px !important;
+	}
+	.navbar-nav {
+		margin-right: 40px !important;
+	}
+	.navbar{
+		height: 90px !important;
+	}
+	.nav-link:hover{
+		color:#56ab2f !important;
+
+	}
+
 
 /*****************************************************************
 			Header CSS End
