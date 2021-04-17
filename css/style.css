@@ -157,11 +157,29 @@ padding-right: 10px;
 			Header CSS End
 ******************************************************************/
 /*****************************************************************
-			Slider CSS Start
+			Manu CSS Start
 /*******************************************************************/
+.menu{
+	background: url('../img/overly-img/1.jpg');
+	background-size: cover;
+	color: #f1f1f1 !important;
 
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.menu div{
+	text-align: center;
+}
+/*.menu div h2{
+	text-transform: uppercase;
+}
+*/.menu div span{
+	color:#56ab2f !important;
+}
 /*****************************************************************
-			Slider CSS End
+			Manu CSS End
 ******************************************************************/
 /*****************************************************************
 			AboutUS CSS Start
