@@ -10,7 +10,7 @@ Home Page Section:
 -------------------
 					1.TopBar
 		  			2.Header
-					3.Overly
+					3.Menu
 					4.AboutUS
 					5.facts
 					6.card
@@ -184,8 +184,46 @@ padding-right: 10px;
 /*****************************************************************
 			AboutUS CSS Start
 ******************************************************************/
+.principle{
 
+	width: 80%;
+	margin: 60px auto;
+	margin-right: 0 !important;
+}
+.principle p{
+	font-size: 13px;
+	color: #999;
+	text-align: justify;
+	width: 85%;
+	line-height: 160%;
+}
+.principle .part-1{
+	display: flex;
+	gap: 2rem !important;
+}
+.half-text{
 
+	
+	
+}
+.half-pic{
+	position: relative;
+}
+.p-b{
+	width: clamp(370px,500px,500px);
+	height: 248px;
+	position: relative;
+	top: 0;
+	left: 0px;
+	background-size: cover;
+}
+.p-p{
+	width: clamp(35%,40%,40%);
+	height: 245px;
+	position: absolute;
+	top: 25px !important;
+	right: 330px;
+}
 /*****************************************************************
 			AboutUS CSS End
 ******************************************************************/
