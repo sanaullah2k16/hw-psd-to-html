@@ -28,7 +28,7 @@ Home Page Section:
 body{
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: 'Open Sans', sans-serif;
 }
 a{
 	text-decoration: none;
@@ -38,7 +38,7 @@ a:hover{
 }
 ul{
 	list-style: none;
-	margin: 0;
+	margin: 0 !important;
 	padding: 0;
 }
 
@@ -91,7 +91,29 @@ ul{
 /*****************************************************************
 			Owl Carousel CSS Start
 ******************************************************************/
-
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    font-size: 45px;
+   	color: #000022;
+   	top: 40%;
+}
+.owl-carousel .owl-nav button.owl-next{
+	right: -5%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	left: -5%;
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover{
+	color: #56ab2f !important;
+	background-color: transparent;
+}
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus{
+	background-color: transparent;
+	outline: none; 
+}
 /*****************************************************************
 			Owl Carousel CSS End
 ******************************************************************/
@@ -102,9 +124,11 @@ ul{
 	height: 50px;
 	line-height: 50px;
 	font-size: 14px;
+	display: flex;
 }
 .topbar-left li{
 	margin-left: 35px;
+	
 
 }
 .topbar-left li:first-child{
@@ -118,7 +142,9 @@ ul{
 padding-right: 10px;
  
 }
-
+.topbar-right{
+	display: flex;
+}
 
 /*****************************************************************
 			TopBar CSS End
@@ -205,11 +231,7 @@ padding-right: 10px;
 	display: flex;
 	gap: 2rem !important;
 }
-.half-text{
 
-	
-	
-}
 .half-pic{
 	position: relative;
 }
@@ -256,9 +278,9 @@ padding-right: 10px;
 
 .row{
 	display: flex;
-	
-	
 	text-align: center;
+	align-items: center;
+    justify-content: center;
 }
 .col-md-3{
 	width: 240px;
@@ -385,8 +407,9 @@ padding-right: 10px;
 
 }
 .cta-button{
-	border:1px solid  #fff;
+	border:2px solid  #fff;
 	outline: 2px solid rgba(255,255,255,.5);
+	background-color: #fff;
 
 }
 

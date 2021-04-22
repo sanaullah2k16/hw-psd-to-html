@@ -18,4 +18,10 @@
     .principle p{
         width: 85%;
     }
+    .d-flex span{
+        display: none;
+    }
+    .d-flex i{
+        font-size: 16px;
+    }
 }
