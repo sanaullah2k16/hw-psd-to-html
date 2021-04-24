@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    .part-1{
+        flex-direction: column;
+    }
+    .part-1 .half-text{
+        width: 100%;
+    }
+    .part-1 .half-pic{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .p-b{
+        width: 80%;
+    }
+    .p-p{
+        left: 20%;
+    }
+    .principle p{
+        width: 85%;
+    }
+    .d-flex span{
+        display: none;
+    }
+    .d-flex i{
+        font-size: 16px;
+    }
+}
